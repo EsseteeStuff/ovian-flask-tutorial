@@ -1,0 +1,21 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Essetee's Howto's</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+<body class="w3-sand">
+  <div class="w3-bar w3-border w3-brown">
+  <p style="text-align: center; font-weight: bolder; font-size: 1.5em;">Essetee's Howto's</p>
+  <a href="#" class="w3-bar-item w3-button w3-small">Home</a>
+  <a href="#" class="w3-bar-item w3-button w3-small">Howto's</a>
+  <a href="#" class="w3-bar-item w3-button w3-small">Adresboek</a>
+  <a href="#" class="w3-bar-item w3-button w3-small">Kookboek</a>
+  <a href="#" class="w3-bar-item w3-button w3-right w3-small">Inloggen</a>
+  <a href="#" class="w3-bar-item w3-button w3-right w3-small">Registreren</a>
+  
+</div>
+  {% block content %}{% endblock content %}
+</body>
+</html>

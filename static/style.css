@@ -1,0 +1,10 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Helvetica;
+}
+a:link.login {
+  text-align: right;
+  font-weight: bolder;
+  text-decoration: none;
+}
